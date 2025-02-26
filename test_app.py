@@ -24,5 +24,6 @@ class TestAddFunction(unittest.TestCase):
         self.assertEqual(greet(""), "Hello, World!")
         self.assertEqual(greet("Bob"), "Hello, Bob")
 
+
 if __name__ == "__main__":
     unittest.main()
